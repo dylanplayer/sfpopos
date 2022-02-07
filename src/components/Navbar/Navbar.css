@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  max-height: 200px;
+  justify-content: space-between;
+  background-color: #2C3333;
+  padding: .5rem;
+  color: #F5F2E7;
+}
+
+.navbar-left {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navber-brand-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .2rem;
+}
+
+.navbar-title {
+  margin-bottom: 0px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar-subtitle {
+  margin-top: 0px;
+}
+
+.navbar-right {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.navbar-link {
+  color: #F5F2E7;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar-link:active,  .navbar-link:hover{
+  border-bottom: .5px solid #F5F2E7;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.navbar-button {
+  color: #F5F2E7;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: .7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid #F5F2E7;
+  border-radius: 10px;
+}
+
+.navbar-button:hover {
+  background-color: #F5F2E7;
+  color: #2C3333;
+}
