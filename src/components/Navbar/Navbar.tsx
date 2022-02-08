@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <div className="navbar">
       <div className="navbar-left">
@@ -12,9 +14,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-right">
-        <Link className="navbar-link" to='/list'>List</Link>
-        <Link className="navbar-link" to='/about'>About</Link>
-        <Link className="navbar-button" to='/random'>Show me a random space</Link>
+        <NavLink className={({ isActive }) => ( isActive ? "navbar-link navbar-link-active" : "navbar-link")} to='/'>List</NavLink>
+        <NavLink className={({ isActive }) => ( isActive ? "navbar-link navbar-link-active" : "navbar-link")} to='/about'>About</NavLink>
+        <NavLink className="navbar-button" to='/random'>Show me a random space</NavLink>
       </div>
     </div>
   );
