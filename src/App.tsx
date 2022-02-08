@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import List from './components/List';
 
@@ -118,8 +119,8 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<List spaces={spaces} />}/>
-
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
