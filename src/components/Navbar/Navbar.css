@@ -50,7 +50,7 @@
   font-size: 1.2rem;
 }
 
-.navbar-link:active,  .navbar-link:hover{
+.navbar-link-active,  .navbar-link:hover{
   border-bottom: .5px solid #F5F2E7;
   padding-top: .5rem;
   padding-bottom: .5rem;

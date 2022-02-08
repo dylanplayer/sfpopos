@@ -1,0 +1,34 @@
+.space {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #395B64;
+  color: #F5F2E7;
+  padding: 1rem;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.space:hover {
+  transform: scale(1.02);
+}
+
+.space-img {
+  width: 100%;
+  height: auto;
+}
+
+.space-name {
+  color: #F5F2E7;
+  text-decoration: none;
+  font-size: .9rem;
+}
+
+.space-address {
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+
+.space-hours {
+  margin-top: .2rem;
+}
