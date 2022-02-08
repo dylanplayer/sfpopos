@@ -17,10 +17,11 @@
   align-items: center;
 }
 
-.navber-brand-container {
+.navbar-brand-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   gap: .2rem;
 }
 
@@ -28,6 +29,7 @@
   margin-bottom: 0px;
   font-size: 2rem;
   font-weight: 700;
+  margin-top: 0px;
 }
 
 .navbar-subtitle {
@@ -70,4 +72,14 @@
 .navbar-button:hover {
   background-color: #F5F2E7;
   color: #2C3333;
+}
+
+@media only screen and (max-width: 750px) {
+  .navbar-subtitle {
+    display: none;
+  }
+
+  .navbar-button {
+    display: none;
+  }
 }
