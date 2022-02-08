@@ -2,22 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Space.css';
 
-interface space {
-  slug: string,
-  img:string,
-  name:string,
-  description:string,
-  address:string,
-  hours:string,
-}
-
-const Space = ({space}:{space:space}) => {
+const Space = ({space}:any) => {
   return (
     <div className='space'>
-      <Link to={`/${space.slug}`}><img className='space-img' src={space.img} alt={space.name}/></Link>
-      <Link className='space-name' to={`/${space.slug}`}><h1>{space.name}</h1></Link>
+      <Link to={`/${space.slug}`}><img className='space-img' src={'/img/' + space.images[0]} alt={space.title}/></Link>
+      <Link className='space-name' to={`/${space.slug}`}><h1>{space.title}</h1></Link>
       <p className='space-address'>📌 {space.address}</p>
-      <p className='space-hours'>🕐 {space.hours}</p>
+      {space.hours ? (<p className='space-hours'>🕐 {space.hours}</p>) : <p className='space-hours'>🕐 Hours Unknown</p>}
     </div>
   );
 }

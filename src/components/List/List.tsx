@@ -12,8 +12,8 @@ interface space {
 }
 
 const List = ({ spaces }:{ spaces:space[] } ) => {
-  let spaceMarkup = spaces.map((space) => {
-    return (<Space space={space} />);
+  let spaceMarkup = spaces.map((space, i) => {
+    return (<Space space={space} key={i} />);
   });
 
   return (
