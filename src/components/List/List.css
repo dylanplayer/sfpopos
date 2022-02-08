@@ -9,6 +9,16 @@
   padding-bottom: 1rem;
 }
 
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: .5rem;
+  border: 2px solid #2C3333;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  color: #2C3333;
+}
+
 .spaces {
   width: 100%;
   max-width: 1400px;
