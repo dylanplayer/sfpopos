@@ -14,8 +14,8 @@
      ],
      "website":"https://pyramidcenter.com/point-of-interest/redwood-park/",
      "features":[
-        "outdoors",
-        "coffee"
+        "🌲",
+        "☕️"
      ]
   },
   {
@@ -33,8 +33,8 @@
      ],
      "website":"https://www.artandarchitecture-sf.com/empire-park.html",
      "features":[
-        "outdoors",
-        "art"
+        "🌲",
+        "🖼"
      ]
   },
   {
@@ -51,8 +51,8 @@
         "50-california-st.jpg"
      ],
      "features":[
-        "outdoors",
-        "toilet"
+        "🌲",
+        "🚽"
      ]
   },
   {
@@ -69,9 +69,9 @@
         "embarcadero-center.jpg"
      ],
      "features":[
-        "outdoors",
-        "toilet",
-        "coffee"
+        "🌲",
+        "🚽",
+        "☕️"
      ]
   },
   {
@@ -90,7 +90,7 @@
      "opens":"10am",
      "closes":"5pm",
      "features":[
-        "outdoors"
+        "🌲"
      ]
   },
   {
@@ -107,9 +107,9 @@
         "garden-terrace-at-150-california.jpg"
      ],
      "features":[
-        "outdoors",
-        "art",
-        "coffee"
+        "🌲",
+        "🖼",
+        "☕️"
      ]
   },
   {
@@ -126,9 +126,9 @@
         "101-california.jpg"
      ],
      "features":[
-        "outdoors",
-        "art",
-        "coffee"
+        "🌲",
+        "🖼",
+        "☕️"
      ]
   },
   {
@@ -162,8 +162,8 @@
         "525-market-street-plaza.jpg"
      ],
      "features":[
-        "outdoors",
-        "coffee"
+        "🌲",
+        "☕️"
      ]
   },
   {
@@ -180,10 +180,10 @@
         "citigroup-center.jpg"
      ],
      "features":[
-        "outdoors",
-        "power",
-        "toilet",
-        "coffee"
+        "🌲",
+        "🔌",
+        "🚽",
+        "☕️"
      ]
   },
   {
@@ -200,7 +200,7 @@
        "555-california.jpg"
     ],
     "features":[
-       "outdoors"
+       "🌲"
     ]
  }
 ]
