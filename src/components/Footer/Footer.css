@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  max-height: 200px;
+  justify-content: center;
+  background-color: #2C3333;
+  padding: .5rem;
+  color: #F5F2E7;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #F5F2E7;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link-active,  .nav-link:hover{
+  border-bottom: .5px solid #F5F2E7;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
